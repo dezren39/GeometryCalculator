@@ -65,8 +65,8 @@ public class GeometryCalculator {
 						val2 = Double.valueOf(scan.next());
 						
 						area = String.valueOf(Geometry.tri(val1, val2));
+						
 					}
-					
 					System.out.println("\nThe " + areaType + "'s area is: " + area);
 					System.out.print("Enter any value to continue: ");
 					
